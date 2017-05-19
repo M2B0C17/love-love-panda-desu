@@ -6,3 +6,31 @@ font-family: 'Raleway', sans-serif;
 */
 
 /* Escribe tu código acá debajo */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+header #img{
+	background: url('../img/uno.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 200px 0px;
+}
+
+header #textosEnCabeza{
+	color: white;
+	text-align: right;
+	width: 1400px; /*ancho */
+	height: 80px; /*alto*/
+	padding: 150px 0px;
+}
+
+header{
+		background-color: #F78E69;
+}
