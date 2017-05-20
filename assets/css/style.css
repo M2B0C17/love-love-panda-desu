@@ -10,12 +10,13 @@ font-family: 'Raleway', sans-serif;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body{
 	font-family: 'Raleway', sans-serif;
 }
-
+/* Texto parte 1 y 2 */
 header #img{
 	background: url('../img/uno.jpg');
 	background-size: cover;
@@ -36,9 +37,11 @@ header{
 		padding: 0 0 30px 0;
 }
 
+/* Texto parte 3 */
+
 .text{
 	background-color: #ABE188;
-	padding: 200px 0;
+	padding: 50px 0;
 }
 
 .text .textoMedio{
@@ -51,10 +54,65 @@ header{
 	height: 330px;
 	position: relative;
 	left: 300px;
-	bottom: 100px;
+	bottom: 10px;
 	}
 
 	.textoMedio h3{
 		line-height: 50px;
 		font-size: 30px;
 	}
+
+	/* Imagen con div img2 */
+	div #img2{
+		background: url('../img/dos.jpg');
+		background-size: cover;
+		background-position: center;
+		padding: 300px 0px;
+	}
+
+	#fondImg2{
+			background-color: #F78E69;
+			padding: 30px 0 30px 0;
+	}
+
+	/* Parte 4 */
+.titulo2{
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 400;
+	padding: 50px 60px;
+	background-color: #ABE188;
+}
+
+/* las 4 fotos de osos */
+div #ositos4{
+ /* no me funciona los js, -.- */
+}
+
+/* Parte 5 */
+div #img3{
+	background: url('../img/tres.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 300px 0px;
+}
+
+#fondImg3{
+		background-color: #F78E69;
+		padding: 30px 0 30px 0;
+}
+
+/* Footer */
+.footers{
+	background-color: #F78E69;
+	padding: 10px 0 10px 0;
+}
+
+footer{
+	color: white;
+	font-size: 13px;
+	text-align: right;
+	width: 1200px; /*ancho */
+	height: 40px; /*alto*/
+}
